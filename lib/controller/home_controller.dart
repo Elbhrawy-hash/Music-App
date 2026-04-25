@@ -3,7 +3,7 @@ import 'package:music_app/features/home/screen/homepage.dart';
 
 
 class HomeController{
-  static const List<Icon>nave_bare_icons=[
+  static const List<Icon>naveBareIcons=[
         Icon(Icons.align_horizontal_left_sharp),
         Icon(Icons.home),
         Icon(Icons.heart_broken_rounded),

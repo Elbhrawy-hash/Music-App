@@ -20,6 +20,7 @@ class LogoSplas extends StatelessWidget {
             end: Alignment(AlignmentMengerX.x_0_20, AlignmentMengerY.y_098),
             colors: [
               ColorManger.Kprimary_color,
+              // ignore: deprecated_member_use
               const Color.fromARGB(255, 44, 24, 194).withOpacity(0.54)
             ])
         ),

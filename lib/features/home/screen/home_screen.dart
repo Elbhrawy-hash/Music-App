@@ -29,9 +29,9 @@ class _HomeScreenState extends State<HomeScreen> {
         selectedItemColor:Colors.purple,
         unselectedItemColor: Colors.white,
         items: [
-          for (int i = 0; i < HomeController.nave_bare_icons.length; i++)
+          for (int i = 0; i < HomeController.naveBareIcons.length; i++)
             BottomNavigationBarItem(
-              icon: HomeController.nave_bare_icons[i],
+              icon: HomeController.naveBareIcons[i],
               label: "",
             )
         ],

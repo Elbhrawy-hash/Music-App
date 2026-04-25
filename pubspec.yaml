@@ -61,6 +61,12 @@ flutter:
   assets:
     - lib/assets/images/
     - lib/assets/fonte/static/
+    - lib/assets/images/icon/🦆 icon _shuffle_.png
+    - lib/assets/images/icon/back.png
+    - lib/assets/images/icon/pause button.png
+    - lib/assets/images/icon/scip.png
+    - lib/assets/images/icon/repeat.png
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

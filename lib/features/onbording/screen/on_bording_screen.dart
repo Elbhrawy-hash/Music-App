@@ -20,6 +20,7 @@ class OnBordingScreen extends StatelessWidget {
             end: Alignment(AlignmentMengerX.x_0_20, AlignmentMengerY.y_098),
             colors: [
               ColorManger.Kprimary_color,
+              // ignore: deprecated_member_use
               const Color.fromARGB(255, 39, 15, 222).withOpacity(0.54),
             ],
           ),
@@ -75,6 +76,7 @@ class OnBordingScreen extends StatelessWidget {
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
                           colors: [
+                            // ignore: deprecated_member_use
                             ColorManger.ktital_color.withOpacity(0.04),
                             Color(0xff411F5C),
                           ],

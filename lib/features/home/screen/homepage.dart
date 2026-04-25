@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/core/resource/alignment_menger.dart';
+import 'package:music_app/core/resource/route_manger.dart';
 import 'package:music_app/features/home/widgets/coustom_text_field.dart';
 import 'package:music_app/features/home/widgets/custom_music_card.dart';
 import 'package:music_app/features/home/widgets/custom_tital.dart';
@@ -18,6 +19,7 @@ class Homepage extends StatelessWidget {
             gradient: LinearGradient(
               begin: Alignment(AlignmentMengerX.x_020, AlignmentMengerY.y_0_98),
               end: Alignment(AlignmentMengerX.x_0_20, AlignmentMengerY.y_098),
+              // ignore: deprecated_member_use
               colors: [Color(0xff411F5C), Color(0xff261F5C).withOpacity(0.85)],
             ),
           ),
@@ -45,7 +47,9 @@ class Homepage extends StatelessWidget {
                       separatorBuilder: (context, index) =>
                           const SizedBox(width: 0),
                       itemBuilder: (context, index) => GestureDetector(
-                        onTap: () {print('hi');}, 
+                        onTap: () {
+                           Navigator.pushNamed(context, RoutesName.kPlayMusic);
+                           }, 
                         child: MusicCard(
                           imagePath: 'lib/assets/images/tastImage.png',
                           songTitle: 'Who Says',
@@ -69,7 +73,7 @@ class Homepage extends StatelessWidget {
                       const SizedBox(height: 0),
                   itemBuilder: (context, index) => GestureDetector(
                     onTap: () {
-                      print('hi');
+                      Navigator.pushNamed(context, RoutesName.kPlayMusic);
                     }, 
                     child: CustomSongTile( 
                       imagePath: 'lib/assets/images/tastImage.png',
