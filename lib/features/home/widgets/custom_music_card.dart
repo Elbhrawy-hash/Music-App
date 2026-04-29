@@ -19,7 +19,6 @@ class MusicCard extends StatelessWidget {
     return Container(
       width: 151,
       decoration: BoxDecoration(
-        
         borderRadius: BorderRadius.circular(19),
       ),
       child: Column(

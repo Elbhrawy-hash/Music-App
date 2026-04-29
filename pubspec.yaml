@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  audioplayers: ^6.6.0
 
 dev_dependencies:
   flutter_test:
@@ -59,13 +60,20 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/assets/images/
-    - lib/assets/fonte/static/
-    - lib/assets/images/icon/🦆 icon _shuffle_.png
-    - lib/assets/images/icon/back.png
-    - lib/assets/images/icon/pause button.png
-    - lib/assets/images/icon/scip.png
-    - lib/assets/images/icon/repeat.png
+    - assets/images/
+    - assets/fonte/static/
+    - assets/images/icon/
+    - assets/images/icon/🦆 icon _shuffle_.png
+    - assets/images/icon/back.png
+    - assets/images/icon/pause button.png
+    - assets/images/icon/scip.png
+    - assets/images/icon/repeat.png
+    - assets/images/qu1.jpg
+    - assets/images/qu2.jpg
+    - assets/images/qu3.jpg
+    - assets/audio/Al-khfe.mp3
+    - assets/audio/Algan.mp3
+    - assets/audio/taha.mp3
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -82,17 +90,17 @@ flutter:
   fonts:
     - family: Orbitron
       fonts:
-        - asset: lib\assets\fonte\static\Orbitron-Regular.ttf
+        - asset: assets\fonte\static\Orbitron-Regular.ttf
           weight: 400
-        - asset: lib\assets\fonte\static\Orbitron-Medium.ttf
+        - asset: assets\fonte\static\Orbitron-Medium.ttf
           weight: 500
-        - asset: lib\assets\fonte\static\Orbitron-SemiBold.ttf
+        - asset: assets\fonte\static\Orbitron-SemiBold.ttf
           weight: 600
-        - asset: lib\assets\fonte\static\Orbitron-Bold.ttf
+        - asset: assets\fonte\static\Orbitron-Bold.ttf
           weight: 700
-        - asset: lib\assets\fonte\static\Orbitron-ExtraBold.ttf
+        - asset: assets\fonte\static\Orbitron-ExtraBold.ttf
           weight: 800
-        - asset: lib\assets\fonte\static\Orbitron-Black.ttf
+        - asset: assets\fonte\static\Orbitron-Black.ttf
           weight: 900
   #         style: italic
   #   - family: Trajan Pro

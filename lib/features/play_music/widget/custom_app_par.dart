@@ -21,10 +21,12 @@ Size get preferredSize => const Size.fromHeight(kToolbarHeight);
           ),
         ),
         centerTitle: true,
-        leading: Icon(
+        leading: IconButton(onPressed: (){
+          Navigator.pop(context);
+        }, icon: Icon(
           Icons.arrow_back_ios_new_rounded,
           color: Colors.white,
-          size: 18,
+          size: 18,)
 
         ),
         actions: [
